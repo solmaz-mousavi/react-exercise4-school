@@ -1,0 +1,21 @@
+.form-top{
+	display: flex;
+	align-items: center;
+}
+.form-top input{
+	height: 30px;
+	width: 200px;
+}
+.search-container{
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 0 10px;
+}
+.search-container input{
+	border: none;
+	outline: none;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-search{
+	background-color: #fff;
+}

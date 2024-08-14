@@ -1,0 +1,41 @@
+/* .report-header{
+	padding: 10px;
+	position: relative;
+} */
+/* 
+.close-btn{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	cursor: pointer;
+	width: 24px;
+	height: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 3px;
+	color: #fff;
+}
+.close-btn:hover{
+	background-color: red;
+} */
+
+.report-header{
+	padding: 5px;
+	text-align: right;
+	background-color: #bbb;
+	border-radius: 5px;
+	font-size: 0.9rem
+}
+
+.title{
+	display: inline-block;
+	width: 150px;
+	margin-bottom: 4px;
+	margin-left: 5px;
+	text-align: left;
+}
+
+.content{
+	font-weight: bold;
+}

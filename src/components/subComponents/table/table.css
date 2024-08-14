@@ -1,0 +1,29 @@
+
+/* table styles */
+.table-container{
+	width: 100%;
+  border-radius: 10px;
+	text-align: center;
+}
+tr, td{
+	background-color: #ccc;
+	border: 1px solid #fff;
+	border-collapse: collapse;
+	border-radius: 4px;
+	padding: 10px 0px;
+}
+th{
+	background-color: #666;
+	color: #fff;
+	border-radius: 4px;
+	padding: 10px 0px;
+}
+.action-container{
+	display: flex;
+	justify-content: center;
+}
+.action-icon::after{
+	content: "";
+	position: absolute;
+	inset: 0;
+ }

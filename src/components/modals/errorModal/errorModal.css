@@ -1,0 +1,52 @@
+.error-modal-container{
+	position: fixed;
+	top: 300px;
+	right: calc(50% - 200px);
+	display: none;
+}
+
+.error-modal-container::before{
+	content: '';
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	inset: 0;
+	z-index: -1 ;
+}
+
+.error-modal-wrapper{
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	background-color: #ccc;
+	width: 400px;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+	font-weight: bold;
+}
+
+.show{
+	display: block;
+}
+
+
+.close-btn{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	cursor: pointer;
+	width: 24px;
+	height: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 3px;
+}
+.close-btn:hover{
+	background-color: red;
+	color: #fff;
+}
+.error-icon{
+	color: rgb(116, 12, 12);
+	font-size: 3rem;
+}

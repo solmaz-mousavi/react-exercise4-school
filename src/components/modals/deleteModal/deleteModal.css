@@ -1,0 +1,32 @@
+.del-modal-container{
+	position: fixed;
+	top: 300px;
+	right: calc(50% - 150px);
+	display: none;
+}
+
+.del-modal-container::before{
+	content: '';
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	inset: 0;
+	z-index: -1 ;
+}
+
+.del-modal-wrapper{
+	background-color: #ccc;
+	width: 300px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.show{
+	display: block;
+}
+
+.del-modal-btn-container{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}

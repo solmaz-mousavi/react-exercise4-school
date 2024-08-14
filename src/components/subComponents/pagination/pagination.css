@@ -1,0 +1,28 @@
+
+.pagination-container{
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.page-num{
+	background-color: #ccc;
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.page-num:not(.active):hover{
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.5);
+	background-color: #ddd;
+}
+
+.active{
+	background-color: aquamarine;
+}

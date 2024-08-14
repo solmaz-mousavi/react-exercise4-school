@@ -1,0 +1,74 @@
+/* container styles */
+.container{
+	margin: 10px auto;
+	padding: 20px;
+	width: 70%;
+	max-width: 1000px;
+	min-width: 486px;
+	background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(30px);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.container h1{
+	text-align: center;
+	margin: 50px;
+}
+/* buttons styles */
+.btn{
+	padding: 7px 30px;
+	margin: 20px 5px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family: 'Segoe UI';
+	font-weight: bold;
+	position: relative;
+}
+.btn:hover{
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.btn-icon{
+	padding: 7px 10px;
+	margin: 0px 5px;
+}
+.btn-green{
+	background-color: #168f48;
+	color: #fff;
+}
+.btn-green:hover{
+	background-color: #3da367;
+}
+.btn-red{
+	background-color: #8f1616;
+	color: #fff;
+}
+.btn-red:hover{
+	background-color: #a33d3d;
+}
+.btn-orange{
+	background-color: #8f7d16;
+	color: #fff;
+}
+.btn-orange:hover{
+	background-color: #a7973c;
+}
+.btn-blue{
+	background-color: #255db1;
+	color: #fff;
+}
+.btn-blue:hover{
+	background-color: #517dc0;
+}
+.btn-search:hover{
+	box-shadow: none;
+}
+.sub-title{
+	margin-top: 15px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.back-btn-container{
+	text-align: left;
+}
+

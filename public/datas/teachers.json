@@ -1,0 +1,8 @@
+{
+  "teachers": [
+    { "id": 140301, "firstName": "علی", "lastName": "میرزایی"},
+    { "id": 140302, "firstName": "حسن", "lastName": "طراوتی"},
+    { "id": 140303, "firstName": "محسن", "lastName": "رادمنش"},
+    { "id": 140304, "firstName": "قدیر", "lastName": "فیضی"}
+  ]
+}
